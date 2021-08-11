@@ -45,7 +45,7 @@ We will train a neural network language model using reviews on Yelp dataset. Whe
 and generate random text.
 
 ## Project usage
-1. Download this repository: git clone https://github.com/duytinvo/comp5014.git
+1. Download this repository: git clone https://github.com/TP1232/NLP_Language_Model
 2. Train the model:
   - Change the current directory to "assignment3"
   - Run this command:
