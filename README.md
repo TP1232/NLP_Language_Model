@@ -57,22 +57,22 @@ and generate random text.
     python model.py -h
     ```
 
-## Assignment 3
+## Project
 
 
-1. (70 points) Part 1 - Theory questions:  
+1. Part 1 - Theory questions:  
 
-    a. (30 points) What is the purpose of *bptt_batch()*  and *repackage_hidden()* functions in *model.py*  
+    a. What is the purpose of *bptt_batch()*  and *repackage_hidden()* functions in *model.py*  
     
-    b. (40 points) Describe an overview procedure of the *train()*  function in *model.py*  
+    b. Describe an overview procedure of the *train()*  function in *model.py*  
     
-2. (80 points) Part 2 - Coding 
+2. Part 2 - Coding 
 
-    - DON'T TRAIN THE MODEL: In this assignment, we will focus on writing an inference of an LM using available 
+    - DON'T TRAIN THE MODEL: In this project, we will focus on writing an inference of an LM using available 
     pre-trained models. **NOTE:** we are working with a pre-trained LM trained on a tiny dataset, which doesn't provide 
     good performance; thus, coding is more important than model's results
     
-    - Before coding, open new terminal at the **assignment3** repository and run following commands to create a virtual environment 
+    - Before coding, open new terminal at the repository and run following commands to create a virtual environment 
     and install all required libraries:
 
     ```commandline
