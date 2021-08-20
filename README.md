@@ -83,24 +83,18 @@ and generate random text.
     ```
     NOTE: Assume that you are using python3.8 as a default Python version 
 
-    - Let's fill all missing parts in the inference file *predict.py*, namely three methods: 
+    - Main methods
      
-        a. (20 points) **load_model()**: Load the saved argument file and the model file 
+        a. **load_model()**: Load the saved argument file and the model file 
          
-        b. (25 points) **generate()**: Generate a random document starting from the start-of-sentence token *SOS* and 
+        b. **generate()**: Generate a random document starting from the start-of-sentence token *SOS* and 
         stopping when reaching the end-of-sentence token *EOS* by employing a greedy sampling technique  
         
-        c. (25 points) **recommend()**: Recommend next possible k words with their corresponding probabilities given some initial context 
+        c. **recommend()**: Recommend next possible k words with their corresponding probabilities given some initial context 
         
-    - Then, complete missing parts at the *app.py* file for locally serving models.
+    - Then, *app.py* file for locally serving models.
     
-        c. (5 points) **getgenerate()**: serve the **generate()** function
+        c. **getgenerate()**: serve the **generate()** function
         
-        d. (5 points) **getrecommend()**: serve the **recommend()** function
+        d. **getrecommend()**: serve the **recommend()** function
 
-## Submission
-
-Submit a compressed file named **FirstName_LastName_StudentID.zip** on D2L, consisting of:
-
-- One pdf file to answer parts 1
-- Your coding files in part 2: *predict.py*, *app.py* 
